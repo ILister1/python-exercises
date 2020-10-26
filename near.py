@@ -1,5 +1,5 @@
 def near(a,b):
-     if len(b) == len(a) - 1 :
+     if list(set(a)) == list(set(b)):
         print("True")
      else:
         print("False")
