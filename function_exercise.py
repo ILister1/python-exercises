@@ -31,7 +31,7 @@ def percent_calc(res_1, res_2, res_3):
 hw_calculate(score_1)
 as_calculate(score_2)
 fe_calculate(score_3)
-percent_calc(score_1, score_2, score_3)
+perc_result = percent_calc(score_1, score_2, score_3)
 
 if perc_result >= 75:
     print("You got an A!")
